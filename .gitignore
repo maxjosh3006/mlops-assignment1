@@ -1,0 +1,10 @@
+# Previous entries...
+
+# DVC
+/data/*
+
+# But don't ignore .dvc files
+!data/*.dvc
+
+# MLflow
+mlruns/ 

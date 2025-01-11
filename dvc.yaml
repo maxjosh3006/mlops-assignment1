@@ -1,0 +1,8 @@
+stages:
+  prepare:
+    cmd: python src/experiment.py
+    deps:
+      - src/experiment.py
+      - data/housing.csv
+    outs:
+      - data/featured_housing.csv 
